@@ -1,0 +1,25 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "Updated portfolio created with React",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "create-react-app": "^3.4.1",
+    "react-bootstrap": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiyoon9886/react-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiyoon9886/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/jiyoon9886/react-portfolio#readme"
+}
