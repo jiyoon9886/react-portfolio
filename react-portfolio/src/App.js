@@ -1,15 +1,21 @@
 import React from 'react';
-import './App.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
+		<Container fluid>
+			<Row>
+				<Col>
+					<Header />
+					<Footer />
+				</Col>
+			</Row>
+		</Container>
 
-
-			</header>
-		</div>
 	);
 }
 
