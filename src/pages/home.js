@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from '../components/Header.js';
+import Footer from '../components/Footer.js';
 
 //Name
 // Contact Info:
@@ -8,7 +10,12 @@ import React from 'react';
 //Link to PDF of resume
 
 const Home = () => {
-  return <div>About me.</div>;
+  return (
+    <div>
+      <Header />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;
