@@ -1,4 +1,5 @@
 import React from 'react';
+import Grid from '@material-ui/core/Grid';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 
@@ -11,12 +12,26 @@ import Footer from '../components/Footer.js';
 
 const Home = () => {
   return (
-    <div>
-      <Header />
-			
-      <Footer />
-    </div>
+    <Grid
+			container
+			style={container}
+			justify='center'
+			alignItems='center'
+			direction='column'
+		>
+			<Grid item>
+				<Header />
+				<Footer />
+			</Grid>
+      
+    </Grid>
   );
 };
 
 export default Home;
+
+const container = {
+	width: '100vw',
+	height: '100vh',
+	flewgrow: '1',
+};

@@ -1,11 +1,10 @@
 import touristee from '../assets/touristee.jpg';
 import foodDiary from '../assets/foodDiary.png';
+import chirrup from '../assets/chirrup.png';
+import employeeDir from '../assets/employeeDir.png';
+import googleBook from '../assets/googleBook.png';
+import budgetTracker from '../assets/budgetTracker.png';
 
-//import burgers from '../assets/eat-da-burgers.png';
-//import employeeDirectory from '../assets/employee-directory.png';
-//import weatherDashboard from '../assets/weather-dashboard.png';
-//import googleBooks from '../assets/google-books.png';
-//import chirrup from '../assets/chirrup.png';
 
 const myProjects = [
   {
@@ -32,30 +31,30 @@ const myProjects = [
     demo: 'https://food-diaries.herokuapp.com/',
     image: foodDiary,
   },
-  // {
-  //   id: 3,
-  //   title: 'Employee Summary',
-  //   description: 'JavaScript, React, NodeJS, Express',
-  //   repo: 'hhttps://github.com/kishaprudente/employee-directory-react',
-  //   demo: 'https://kp-react-employees.herokuapp.com/',
-  //   image: employeeDirectory,
-  // },
-  // {
-  //   id: 4,
-  //   title: 'Weather Dashboard',
-  //   description: 'HTML, jQuery, Bootstrap',
-  //   repo: 'https://github.com/kishaprudente/weather-dashboard',
-  //   demo: 'https://kishaprudente.github.io/weather-dashboard/',
-  //   image: weatherDashboard,
-  // },
-  // {
-  //   id: 5,
-  //   title: 'Google Books Search',
-  //   description: 'ReactJS, NodeJS, MongoDB, Express',
-  //   repo: 'https://github.com/kishaprudente/google-books-search',
-  //   demo: 'https://kp-google-books-search.herokuapp.com/',
-  //   image: googleBooks,
-  // },
+  {
+    id: 3,
+    title: 'Employee Directory',
+    description: 'JavaScript, React, NodeJS, Express',
+		repo: 'https://github.com/jiyoon9886/employee-directory',
+		demo: 'https://jkim-user-dir.herokuapp.com/',
+    image: employeeDir,
+  },
+  {
+    id: 4,
+    title: 'Budget Tracker',
+    description: 'HTML, Express, MongoDB',
+		repo: 'https://github.com/jiyoon9886/budget-tracker',
+		demo: 'https://budget-tracker-ver1.herokuapp.com/',
+    image: budgetTracker,
+  },
+  {
+    id: 5,
+    title: 'Google Books Search',
+    description: 'ReactJS, NodeJS, MongoDB, Express',
+		repo: 'https://github.com/jiyoon9886/google-book-search',
+		demo: 'https://mern-reading-list-1.herokuapp.com/',
+    image: googleBook,
+  },
 ];
 
 export default myProjects;

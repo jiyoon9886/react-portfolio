@@ -1,15 +1,22 @@
 import React from "react";
+
 import ProjectCard from "../components/ProjectCard.js";
+import Grid from '@material-ui/core/Grid';
+
 import myProjects from "../utils/myProjects";
-//List of projects. For each:
- // Project title
- // Link to the deployed version
- // Link to the GitHub repository
- // GIF or screenshot of the deployed application
+
+
 
 const Projects = () => {
     return (
-      <div>
+			<Grid
+				container
+				style={container}
+				justify='center'
+				alignItems='center'
+				direction='column'
+			>
+				
         {myProjects.map((project) => (
           <ProjectCard 
 						image={project.image}
@@ -19,8 +26,16 @@ const Projects = () => {
 						demo={project.demo}
 					/>
         ))}
-      </div>
-    );
+					
+      </Grid>
+			
+		);	
 }
 
 export default Projects;
+
+const container = {
+	width: '100vw',
+	height: '100vh',
+	flewgrow: '1',
+};
