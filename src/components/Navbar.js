@@ -31,7 +31,7 @@ export default function CenteredTabs() {
         textColor='primary'
         centered
       >
-        <Tab component={Link} to='/' value='Home' label='Home' />
+        <Tab component={Link} to='/' value='Home' label='About Me' />
         <Tab
           component={Link}
           to='/projects'
