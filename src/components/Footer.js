@@ -7,7 +7,7 @@ function Footer() {
 	return (
 
 
-		<footer style={{ textAlign: "center" }}>Made with ♥ by Jiyoon Kim</footer>
+		<footer style={{ textAlign: "center" }}> Made with ♥ by Jiyoon</footer>
 
 
 
