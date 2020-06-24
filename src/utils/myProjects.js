@@ -8,14 +8,14 @@ import foodDiary from '../assets/foodDiary.png';
 //import chirrup from '../assets/chirrup.png';
 
 const myProjects = [
-  // {
-  //   id: 0,
-  //   title: 'Chirrup!',
-  //   description: 'ReactJS, NodeJS, ExpressJS, MongoDB',
-  //   repo: 'https://github.com/kishaprudente/madagascar',
-  //   demo: 'https://chirrup-app.herokuapp.com/',
-  //   image: chirrup,
-  // },
+  {
+    id: 0,
+    title: 'Chirrup!',
+    description: 'ReactJS, NodeJS, ExpressJS, MongoDB',
+    repo: 'https://github.com/kishaprudente/madagascar',
+    demo: 'https://chirrup-app.herokuapp.com/',
+    image: chirrup,
+  },
   {
     id: 1,
     title: 'Touristee',
