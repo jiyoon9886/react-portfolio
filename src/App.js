@@ -9,7 +9,7 @@ import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className='App'>
@@ -22,6 +22,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;

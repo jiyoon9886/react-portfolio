@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectCard from "../components/ProjectCard.js"
 
 //List of projects. For each:
  // Project title
@@ -9,7 +10,8 @@ import React from "react";
 const Projects = () => {
     return(
         <div>
-            These are my projects.
+            <ProjectCard />
+					
         </div>
     )
 }

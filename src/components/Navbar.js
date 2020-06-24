@@ -14,9 +14,9 @@ const useStyles = makeStyles({
 
 export default function CenteredTabs() {
   const classes = useStyles();
-	const [value, setValue] = React.useState(0);
-	
-	const location = useLocation();
+  const [value, setValue] = React.useState(0);
+
+  const location = useLocation();
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -31,8 +31,13 @@ export default function CenteredTabs() {
         textColor='primary'
         centered
       >
-        <Tab component={Link} to='/home' value='Home' label='Home' />
-        <Tab component={Link} to='/projects' value='Projects' label='Projects' />
+        <Tab component={Link} to='/' value='Home' label='Home' />
+        <Tab
+          component={Link}
+          to='/projects'
+          value='Projects'
+          label='Projects'
+        />
         {/* <Tab label='Item Three' /> */}
       </Tabs>
     </Paper>
