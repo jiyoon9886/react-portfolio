@@ -11,11 +11,11 @@ function Header() {
     <Grid container style={container} justify='center' alignItems='center'>
       <Paper fluid elevation={3} style={image}></Paper>
       <Grid item style={{ marginLeft: '20px' }}>
-        <h3>Hello! </h3>
-        <p style={{ marginBottom: 0 }}>My name is Jiyoon.</p>
+        <h1 style={{textAlign: 'center'}}>H e l l o </h1>
+        <p style={{ marginBottom: 0 }}>My name is Jiyoon Kim.</p>
         <p style={{ marginBottom: 0 }}>
           I'm a fun-loving, human-centric, web developer devoted to spreading
-          positivity through my creative projects.
+          positivity through creative projects.
         </p>
       </Grid>
     </Grid>
