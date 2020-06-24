@@ -18,7 +18,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ProjectCard({title, description, image, props}) {
+export default function ProjectCard({title, description, image, demo, props}) {
   const classes = useStyles();
 
   return (
@@ -40,7 +40,7 @@ export default function ProjectCard({title, description, image, props}) {
       </CardActionArea>
       <CardActions>
         <Button size='small' color='primary'>
-          Learn More
+          <a href={demo}>Learn More</a>
         </Button>
       </CardActions>
     </Card>
