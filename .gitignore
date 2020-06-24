@@ -1,3 +1,8 @@
+#dependencies
+/node_modules
+/.pnp
+.pnp.js
+
 # Logs
 logs
 *.log
@@ -19,7 +24,7 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage
+/coverage
 *.lcov
 
 # nyc test coverage
@@ -38,7 +43,6 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -102,3 +106,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+.DS_Store
+
+package-lock.json
