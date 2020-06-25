@@ -19,17 +19,13 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ProjectCard({title, description, image, demo, props}) {
+export default function ProjectCard({title, alt, description, image, demo, repo, props}) {
   const classes = useStyles();
 
   return (
-		
     <Card className={classes.root}>
       <CardActionArea>
-        <CardMedia
-          className={classes.media}
-					image={image}
-					 />
+        <CardMedia component="img" alt={alt} className={classes.media} image={image} title={title} />
         <CardContent>
           <Typography gutterBottom variant='h5' component='h2'>
             {title}
@@ -40,6 +36,9 @@ export default function ProjectCard({title, description, image, demo, props}) {
         </CardContent>
       </CardActionArea>
       <CardActions>
+        <Button size='small' color='primary'>
+          <a href={repo}>Github</a>
+        </Button>
         <Button size='small' color='primary'>
           <a href={demo}>Learn More</a>
         </Button>

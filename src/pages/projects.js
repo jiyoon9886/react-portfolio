@@ -11,18 +11,20 @@ const Projects = () => {
       container
       style={container}
       justify='center'
-      alignItems='center'
-      direction='column'
+      //alignItems='center'
+      //direction='column'
     >
-      {myProjects.map((project) => (
-        <ProjectCard
-          image={project.image}
-          title={project.title}
-          description={project.description}
-          repo={project.repo}
-          demo={project.demo}
-        />
-      ))}
+      <Grid item>
+        {myProjects.map((project) => (
+          <ProjectCard
+            image={project.image}
+            title={project.title}
+            description={project.description}
+            repo={project.repo}
+            demo={project.demo}
+          />
+        ))}
+      </Grid>
     </Grid>
   );
 };
