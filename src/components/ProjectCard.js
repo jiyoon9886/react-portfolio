@@ -1,5 +1,6 @@
 //A single `Project` component that will be used multiple times on a single page
 import React from 'react';
+import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -23,26 +24,34 @@ export default function ProjectCard({title, alt, description, image, demo, repo,
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia component="img" alt={alt} className={classes.media} image={image} title={title} />
-        <CardContent>
-          <Typography gutterBottom variant='h5' component='h2'>
-            {title}
-          </Typography>
-          <Typography variant='body2' color='textSecondary' component='p'>
-            {description}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size='small' color='primary'>
-          <a href={repo}>Github</a>
-        </Button>
-        <Button size='small' color='primary'>
-          <a href={demo}>Learn More</a>
-        </Button>
-      </CardActions>
-    </Card>
+    <Grid item>
+      <Card className={classes.root}>
+        <CardActionArea>
+          <CardMedia
+            component='img'
+            alt={alt}
+            className={classes.media}
+            image={image}
+            title={title}
+          />
+          <CardContent>
+            <Typography gutterBottom variant='h5' component='h2'>
+              {title}
+            </Typography>
+            <Typography variant='body2' color='textSecondary' component='p'>
+              {description}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button size='small' color='primary'>
+            <a href={repo}>Github</a>
+          </Button>
+          <Button size='small' color='primary'>
+            <a href={demo}>Learn More</a>
+          </Button>
+        </CardActions>
+      </Card>
+    </Grid>
   );
 }
