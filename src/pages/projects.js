@@ -12,9 +12,8 @@ const Projects = () => {
       style={container}
       justify='center'
       //alignItems='center'
-      //direction='column'
+      direction='row'
     >
-      <Grid item>
         {myProjects.map((project) => (
           <ProjectCard
             image={project.image}
@@ -24,7 +23,6 @@ const Projects = () => {
             demo={project.demo}
           />
         ))}
-      </Grid>
     </Grid>
   );
 };
