@@ -28,7 +28,7 @@ const myProjects = [
   {
     id: 2,
     title: 'My Food Diary',
-    description: 'JavaScript, Bulma, MySQL',
+    description: 'HTML, Express, JavaScript, jQuery, MySQL',
     repo: 'https://github.com/jiyoon9886/food_diaries',
     demo: 'https://food-diaries.herokuapp.com/',
     image: foodDiary,
@@ -37,7 +37,7 @@ const myProjects = [
   {
     id: 3,
     title: 'Employee Directory',
-    description: 'JavaScript, React, NodeJS, Express',
+    description: 'JavaScript, ReactJS, NodeJS, Express',
     repo: 'https://github.com/jiyoon9886/employee-directory',
     demo: 'https://jkim-user-dir.herokuapp.com/',
     image: employeeDir,
