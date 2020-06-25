@@ -45,10 +45,10 @@ export default function ProjectCard({title, alt, description, image, demo, repo,
         </CardActionArea>
         <CardActions>
           <Button size='small' color='primary'>
-            <a href={repo}>Github</a>
+            <a href={repo}>GitHub</a>
           </Button>
           <Button size='small' color='primary'>
-            <a href={demo}>Learn More</a>
+            <a href={demo}>Website</a>
           </Button>
         </CardActions>
       </Card>
