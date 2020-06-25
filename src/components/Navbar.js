@@ -6,6 +6,8 @@ import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 
+import JKim_WebDevResume  from '../assets/JKim_WebDevResume.pdf';
+
 const useStyles = makeStyles({
   root: {
     flexGrow: 1,
@@ -38,7 +40,7 @@ export default function CenteredTabs() {
           value='Projects'
           label='Projects'
         />
-        {/* <Tab label='Item Three' /> */}
+        <Tab href={JKim_WebDevResume} value='Resume' label='Resume' />
       </Tabs>
     </Paper>
   );
