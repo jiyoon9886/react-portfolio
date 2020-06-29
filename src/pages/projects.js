@@ -11,11 +11,11 @@ const Projects = () => {
       container
       style={container}
       justify='center'
-      //alignItems='center'
       direction='row'
     >
         {myProjects.map((project) => (
           <ProjectCard
+						key={project.id}
             image={project.image}
             title={project.title}
             description={project.description}
