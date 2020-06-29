@@ -34,17 +34,17 @@ export default function ProjectCard({title, alt, description, image, demo, repo,
             image={image}
 						title={title}
           />
-          <CardContent>
-            <Typography gutterBottom variant='h5' component='h2'>
+					<CardContent >
+						<Typography style={{ fontFamily: 'Raleway', fontWeight: 'bold' }} gutterBottom variant='h5' component='h2'>
               {title}
             </Typography>
-            <Typography variant='body2' color='textSecondary' component='p'>
+            <Typography style={{fontFamily: 'Raleway'}} variant='body2' color='textSecondary' component='p'>
               {description}
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size='small' color='primary'>
+					<Button style={{ fontFamily: 'Raleway' }} size='small' color='primary'>
             <a href={repo}>GitHub</a>
           </Button>
         </CardActions>
