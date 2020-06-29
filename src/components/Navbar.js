@@ -1,6 +1,6 @@
 //Navigation with React Router, dynamic rendering, or another third part router
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
@@ -10,15 +10,14 @@ import JKim_WebDevResume  from '../assets/JKim_WebDevResume.pdf';
 
 const useStyles = makeStyles({
   root: {
-    flexGrow: 1,
+		flexGrow: 1,
   },
 });
 
 export default function CenteredTabs() {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState();
 
-  const location = useLocation();
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -33,14 +32,24 @@ export default function CenteredTabs() {
         textColor='primary'
         centered
       >
-        <Tab component={Link} to='/' value='Home' label='About Me' />
+				<Tab 
+				style={{fontFamily: 'Raleway'}} 
+				component={Link} 
+				to='/' 
+				value='Home' 
+				label='About Me' />
         <Tab
-          component={Link}
+					style={{ fontFamily: 'Raleway' }}
+					component={Link}
           to='/projects'
           value='Projects'
           label='Projects'
         />
-        <Tab href={JKim_WebDevResume} value='Resume' label='Resume' />
+				<Tab 
+				style={{ fontFamily: 'Raleway' }}
+				href={JKim_WebDevResume} 
+				value='Resume' 
+				label='Resume' />
       </Tabs>
     </Paper>
   );
