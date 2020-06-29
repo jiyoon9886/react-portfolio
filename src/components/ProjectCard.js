@@ -26,7 +26,7 @@ export default function ProjectCard({title, alt, description, image, demo, repo,
   return (
     <Grid item>
       <Card className={classes.root}>
-        <CardActionArea>
+				<CardActionArea a href={demo}>
           <CardMedia
             component='img'
             alt={alt}
