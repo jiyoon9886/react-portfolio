@@ -32,7 +32,7 @@ export default function ProjectCard({title, alt, description, image, demo, repo,
             alt={alt}
             className={classes.media}
             image={image}
-            title={title}
+						title={title}
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='h2'>
@@ -46,9 +46,6 @@ export default function ProjectCard({title, alt, description, image, demo, repo,
         <CardActions>
           <Button size='small' color='primary'>
             <a href={repo}>GitHub</a>
-          </Button>
-          <Button size='small' color='primary'>
-            <a href={demo}>Website</a>
           </Button>
         </CardActions>
       </Card>
