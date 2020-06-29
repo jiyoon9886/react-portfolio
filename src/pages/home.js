@@ -6,13 +6,6 @@ import Header from '../components/Header.js';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer.js';
 
-//Name
-// Contact Info:
-//Links to GitHub profile
-//Links to LinkedIn page
-//email address
-//Link to PDF of resume
-
 const Home = () => {
   return (
     <Grid
@@ -36,5 +29,6 @@ export default Home;
 const container = {
   width: '100vw',
   height: '100vh',
-  flewgrow: '1',
+	flewgrow: '1',
+	fontFamily: 'Raleway',
 };
