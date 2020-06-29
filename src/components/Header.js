@@ -9,7 +9,9 @@ import profilePic from '../assets/profilePic.jpg';
 function Header() {
 	return (
     <Grid container style={container} justify='center' alignItems='center'>
-      <Paper fluid elevation={3} style={image}></Paper>
+      <Grid item>
+				<Paper fluid elevation={3} style={image}></Paper>
+			</Grid>
       <Grid item style={{ marginLeft: '20px' }}>
         <h1 >H e l l o </h1>
         <p style={{ marginBottom: 0 }}>My name is Jiyoon Kim.</p>
@@ -28,6 +30,7 @@ const container = {
 	width: '100vw',
 	height: '100vh',
 	flewgrow: '1',
+	//fontFamily: 'Raleway',
 };
 
 const image = {
@@ -35,6 +38,6 @@ backgroundImage: `url(${profilePic}`,
 backgroundSize: 'cover',
 	display: 'flex',
 	flexWrap: 'wrap',
-padding: '200px',
-marginTop: '30px',
+padding: '187px',
+marginTop: '45px',
 }
