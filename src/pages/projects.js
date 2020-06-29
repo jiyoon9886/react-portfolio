@@ -32,5 +32,6 @@ export default Projects;
 const container = {
   width: '100vw',
   height: '100vh',
-  flewgrow: '1',
+	flewgrow: '1',
+	fontFamily: 'Raleway',
 };
