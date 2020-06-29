@@ -30,5 +30,6 @@ const Contact = () => {
 export default Contact;
 
 const contactIcons = {
-  textAlign: 'center',
+	textAlign: 'center',
+	fontFamily: 'Raleway',
 };
