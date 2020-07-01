@@ -19,6 +19,11 @@ function Header() {
           I'm a fun-loving, human-centric, web developer devoted to spreading
           positivity through creative projects.
         </p>
+				<br></br>
+				<ul>These are some of my technological skills:
+					<li>Front-end: ReactJS • HTML • CSS • AJAX • jQuery</li>
+					<li>Back-end: NodeJS • JavaScript (ES6) • ExpressJS • MongoDB • MySQL</li>
+				</ul>
       </Grid>
     </Grid>
   );
