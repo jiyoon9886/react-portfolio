@@ -20,10 +20,10 @@ function Header() {
           positivity through creative projects.
         </p>
 				<br></br>
-				<ul>These are some of my technological skills:
-					<li>Front-end: ReactJS • HTML • CSS • AJAX • jQuery</li>
-					<li>Back-end: NodeJS • JavaScript (ES6) • ExpressJS • MongoDB • MySQL</li>
-				</ul>
+				<p style={{ marginBottom: 0 }}>
+					These are some of the technologies I've worked with:<br></br>
+					ReactJS • HTML • CSS • AJAX • jQuery • NodeJS • JavaScript (ES6) • ExpressJS • MongoDB • MySQL
+				</p>
       </Grid>
     </Grid>
   );
